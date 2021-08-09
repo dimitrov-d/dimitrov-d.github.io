@@ -1,8 +1,14 @@
-@use '../overrides' as *;
-@use '../components/mixins' as *;
+@use '../overrides'as *;
+@use '../components/mixins'as *;
 
 .menu {
     @include gradient;
+
+    ul {
+        @media (max-width: 575.98px) {
+            text-align: center;
+        }
+    }
 
     li {
         padding: 0 1rem;
@@ -11,6 +17,11 @@
             color: $white !important;
             text-transform: capitalize;
             font-weight: 600;
+
+            @media (max-width: 575.98px) {
+                border-bottom: 0.5px solid $white !important;
+            }
+
         }
     }
 }
@@ -18,5 +29,6 @@
 .title {
     color: $white !important;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.5rem !important;
 }

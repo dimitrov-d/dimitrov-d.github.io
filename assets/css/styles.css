@@ -11120,6 +11120,11 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
 }
+@media (max-width: 575.98px) {
+  .btn-rounded {
+    display: none;
+  }
+}
 .btn-rounded span {
   position: absolute;
   background-color: #4286f4;
@@ -11151,6 +11156,11 @@ textarea.form-control-lg {
 .menu {
   background: linear-gradient(to right, rgba(66, 134, 244, 0.95), rgba(118, 128, 151, 0.95));
 }
+@media (max-width: 575.98px) {
+  .menu ul {
+    text-align: center;
+  }
+}
 .menu li {
   padding: 0 1rem;
 }
@@ -11159,11 +11169,17 @@ textarea.form-control-lg {
   text-transform: capitalize;
   font-weight: 600;
 }
+@media (max-width: 575.98px) {
+  .menu li a {
+    border-bottom: 0.5px solid #fff !important;
+  }
+}
 
 .title {
   color: #fff !important;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.5rem !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
