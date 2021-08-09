@@ -1,1 +1,14 @@
 @use 'overrides';
+
+// Components
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Sections
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/experiences';
+@use 'sections/misc';
