@@ -17,7 +17,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark menu shadow fixed-top">
+  <!-- NAV SECTION -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark menu shadow-lg fixed-top">
     <a class="navbar-brand ml-2 title" href="#">Damjan Dimitrov</a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +46,7 @@
     </div>
   </nav>
 
-
+  <!-- INTRO SECTION -->
   <section id="home" class="intro-section">
     <div class="container">
       <div class="row align-items-center text-white">
@@ -59,12 +60,11 @@
             </span>
           </h1>
           <button type="button" id="touch" class="rounded-pill btn-rounded"
-          onclick="location.href='mailto:damjandimitrov1@gmail.com';">
+            onclick="location.href='mailto:damjandimitrov1@gmail.com';">
             Get in touch
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
         </div>
-
         <div class="col-md-6 intros text-end mb-3">
           <div class="image-box">
             <img src="assets/images/profile.png" alt="profile photo" id="profile-photo" class="img-fluid">
@@ -74,7 +74,195 @@
     </div>
   </section>
 
+  <!-- SKILLS SECTION -->
+  <section class="skills">
+    <div class="container">
+      <div class="row text-center" style="margin-top: 50px">
+        <h6 class="display-5 fw-bold"> Skills and competences</h6>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
 
+    <div class="container" style="margin-top: -20px">
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 skills__content">
+          <div class="skills__content">
+            <h3 class="display-5--title mt-1 mb-4">Web development </h3><span
+              class="icon fas fa-laptop-code ps-4"></span>
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/angular.png" alt="Angular logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Angular" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/aspnetcore.png"
+                      alt="aspnetcore logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="ASP.NET Core"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/htmlcssjs.png"
+                      alt="htmlcssjs logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML, CSS, JS"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/rxjs.png" alt="rxjs logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="RxJS" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/typescript.png"
+                      alt="typescript logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Typescript"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/es6.png" alt="es6 logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="ES6 Standard" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/bootstrap.jpeg"
+                      alt="bootstrap logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap 5"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/sass.png" alt="sass logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sass" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/nodejs.png" alt="nodejs logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Node.js" class="img-fluid"></div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="rounded-pill btn-rounded border-primary">
+              View projects
+              <span><i class="fas fa-arrow-down"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__image">
+            <img src="assets/images/webdev.png" alt="marketing illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__image">
+            <img src="assets/images/server.png" alt="marketing illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__content">
+            <h3 class="display-5--title mb-4">Server-side development</h3><span class="icon fas fa-server ps-4"></span>
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/java.png" alt="Java logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Java" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/csharp.png" alt="c# logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="C#" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/python.png" alt="python logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/c++.png" alt="c++ logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="C++" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/dotnet.png" alt="dotnet logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title=".NET Framework" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/spring.png" alt="spring logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Spring Framework" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="rounded-pill btn-rounded border-primary">
+                View projects
+                <span><i class="fas fa-arrow-down"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="skills__content">
+              <h3 class="display-5--title mb-4">Databases & Networks</h3><span class="icon fas fa-database ps-4"></span>
+              <span class="icon fas fa-cloud-upload-alt ps-4"></span>
+              <div class="container">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/postgre.png"
+                        alt="postgre logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="PostgreSQL"
+                        class="img-fluid"></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/mysql.jpeg" alt="mysql logo"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="MySQL" class="img-fluid"></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/msql.png" alt="mssql logo"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="Microsoft SQL" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/firebase.png"
+                        alt="firebase logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Firebase"
+                        class="img-fluid"></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/gitlab.png" alt="gitlab logo"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="Gitlab CI/CD" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/github.png" alt="github logo"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github Actions" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/docker.png" alt="docker logo"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="Docker" class="img-fluid"></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/digitalocean.jpeg"
+                        alt="digitalocean logo" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Digital Ocean" class="img-fluid"></div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" class="rounded-pill btn-rounded border-primary">
+                View projects
+                <span><i class="fas fa-arrow-down"></i></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="skills__image float-end">
+              <img src="assets/images/database.png" alt="marketing illustration" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -83,6 +271,12 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
   </script>
 </body>
 
