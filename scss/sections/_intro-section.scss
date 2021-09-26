@@ -1,0 +1,26 @@
+@use '../overrides'as *;
+@use '../components/mixins'as *;
+
+.intro-section {
+    @include gradient;
+    padding: 5rem 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+#profile-photo {
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid $white;
+    margin-left: auto;
+
+    @media (max-width: 575.98px) {
+        margin-right: 20px;
+    }
+}
+
+#touch {
+    cursor: pointer !important;
+}

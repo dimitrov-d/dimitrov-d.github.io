@@ -1,0 +1,21 @@
+@use '../overrides'as *;
+
+.display-2 {
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+    &--intro {
+        display: inline-block;
+        font-weight: 700;
+        color: $white;
+        font-size: 3rem;
+    }
+
+    &--description {
+        font-size: 1.5rem;
+        display: block;
+        color: $white;
+        margin-top: 1.2rem;
+        text-transform: none;
+    }
+}
