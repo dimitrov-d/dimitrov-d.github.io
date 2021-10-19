@@ -48,3 +48,18 @@
     margin: 0 auto;
     background-color: $primary;
 }
+
+.border-right {
+    border-right: 0;
+
+    @include media-breakpoint-up(sm) {
+        border-right: 0.1rem solid $gray-300;
+        height: 100%;
+    }
+}
+
+
+// GRADIENT BG
+.gradient {
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}
