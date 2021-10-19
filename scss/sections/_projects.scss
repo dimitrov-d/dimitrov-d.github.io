@@ -1,0 +1,23 @@
+@use '../overrides'as *;
+@use '../components/mixins'as *;
+
+
+.projects {
+    position: relative;
+    padding: 0;
+    @include gradient;
+
+    button {
+        text-transform: capitalize;
+    }
+
+    img {
+
+        &.compact {
+            max-height: 200px;
+            width: 80%;
+            margin-top: 20px;
+            margin-bottom: -20px;
+        }
+    }
+}
