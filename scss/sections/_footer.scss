@@ -7,7 +7,6 @@
     background-color: $footer;
 }
 
-// STYLE THE CONTACT-BOX CONTENT
 .contact-box {
     position: relative;
 
@@ -26,8 +25,6 @@
         padding: 0.4rem;
         font-weight: 600;
 
-
-
         &--title {
             color: $white;
             text-decoration: none;
@@ -36,7 +33,6 @@
             @include media-breakpoint-up(sm) {
                 font-size: 1.4rem;
             }
-
         }
 
         &--subtitle {
@@ -47,7 +43,6 @@
             @include media-breakpoint-up(sm) {
                 font-size: 1rem;
             }
-
         }
     }
 }
@@ -63,8 +58,6 @@
             @include media-breakpoint-up(sm) {
                 font-size: 1.6rem;
             }
-
-
         }
 
         &:hover {

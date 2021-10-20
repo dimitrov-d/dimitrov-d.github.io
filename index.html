@@ -27,22 +27,25 @@
     <div class="collapse navbar-collapse justify-content-end mr-2" id="navbarContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#achievements">Achievements</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#experiences">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
-      <button type="button" class="rounded-pill btn-rounded">
-        +386 69 983 065
-        <span><i class="fas fa-phone-alt"></i></span>
-      </button>
+      <span type="button" class="rounded-pill btn-rounded">
+        damjandimitrov1@gmail.com
+        <span><i class="fas fa-at" style="margin-left: 0.65rem;"></i></span>
+      </span>
     </div>
   </nav>
 
@@ -75,7 +78,7 @@
   </section>
 
   <!-- SKILLS SECTION -->
-  <section class="skills">
+  <section class="skills" id="skills">
     <div class="container">
       <div class="row text-center" style="margin-top: 50px">
         <h6 class="display-5 fw-bold"> Skills and competences</h6>
@@ -135,10 +138,10 @@
                 </div>
               </div>
             </div>
-            <button type="button" class="rounded-pill btn-rounded border-primary">
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">
               View projects
               <span><i class="fas fa-arrow-down"></i></span>
-            </button>
+            </button> -->
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
@@ -151,7 +154,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="skills__image">
-            <img src="assets/images/illustrations/server.png" alt="server dev illustration" class="img-fluid">
+            <img src="assets/images/illustrations/development.png" alt="server dev illustration" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
@@ -186,10 +189,10 @@
                   </div>
                 </div>
               </div>
-              <button type="button" class="rounded-pill btn-rounded border-primary">
+              <!-- <button type="button" class="rounded-pill btn-rounded border-primary">
                 View projects
                 <span><i class="fas fa-arrow-down"></i></span>
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -241,16 +244,15 @@
                 </div>
               </div>
             </div>
-
-            <button type="button" class="rounded-pill btn-rounded border-primary">
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">
               View projects
               <span><i class="fas fa-arrow-down"></i></span>
-            </button>
+            </button> -->
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="skills__image float-end">
-            <img src="assets/images/illustrations/database.png" alt="database illustration" class="img-fluid">
+            <img src="assets/images/illustrations/network.png" alt="network illustration" class="img-fluid">
           </div>
         </div>
       </div>
@@ -303,10 +305,10 @@
               </div>
             </div>
 
-            <button type="button" class="rounded-pill btn-rounded border-primary">
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">
               View projects
               <span><i class="fas fa-arrow-down"></i></span>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -440,12 +442,29 @@
   <section id="experiences" class="experiences">
     <div class="container">
       <div class="row text-center">
-        <h6 class="display-5 fw-bold"> Work Experience </h6>
+        <h6 class="display-5 fw-bold"> Education and Work Experience </h6>
         <hr style="width: 100px; height: 3px; color:#4286f4" class="mx-auto">
       </div>
       <div class="row mt-5">
         <div class="col-md-12">
           <div class="accordion" id="accordionId">
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#famnit" aria-expanded="false" aria-controls="famnit">
+                  Graduate Engineer of Computer Science and Informatics (2018 - 2021)
+                </button>
+              </h2>
+              <div id="famnit" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionId">
+                <div class="accordion-body">
+                  I completed my bachelor studies in computer science and informatics at the Faculty of Mathematics,
+                  Natural Sciences and Information Technologies (FAMNIT), at the University of Primorska. During my studies I acquired
+                  a large set of skills and fundamentals in the fields of programming, software engineering, computer networks,
+                  data structures and algorithms, system design and operating systems.
+                </div>
+              </div>
+            </div>
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -526,7 +545,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 mt-3">
           <div class="card align-items-center">
-            <img src="assets/images/projects/grocery-dropping.jpg" class="img-fluid compact" alt="Grocery Dropping">
+            <img src="assets/images/projects/grocery-dropping.jpg" class="img-fluid compact fitted" alt="Grocery Dropping">
             <div class="card-body">
               <hr>
               <h5 class="card-title">Grocery Dropping</h5>
@@ -539,7 +558,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mt-3">
           <div class="card align-items-center">
-            <img src="assets/images/projects/address-book.jpg" class="img-fluid compact" alt="Address Book">
+            <img src="assets/images/projects/address-book.jpg" class="img-fluid compact fitted" alt="Address Book">
             <div class="card-body">
               <hr>
               <h5 class="card-title">Address Book</h5>
@@ -567,7 +586,7 @@
             <div class="card-body">
               <hr>
               <h5 class="card-title">Hungry Hole</h5>
-              <p class="card-text">Augmented Reality 3D Game built in Unity using Vuforia AR Engine </p>
+              <p class="card-text">Augmented Reality 3D Game built in Unity using Vuforia AR Engine. The game is available for Android and iOS, or it can be played on a desktop system</p>
               <a href="https://gitlab.com/augmented-reality1/hungry-hole" class="card-link">Gitlab repository link</a>
               <a href="https://www.youtube.com/watch?v=32Uxcjd5P20" class="card-link">Demo video</a>
             </div>
@@ -593,10 +612,7 @@
               <hr>
               <h5 class="card-title">RPSLS</h5>
               <p class="card-text">Rock Paper Scissors Lizard Spock, interactive game built in 3 runtime modes -
-                <strong>Sequential</strong>
-                using iterative statements, <strong>Parallel</strong> by using built-in operating system threads and
-                <strong>Distributed</strong> using distributed network nodes on hosted multiple systems by using MPJ and
-                websockets.</p>
+                <strong>Sequential</strong>, <strong>Parallel</strong>, or <strong>Distributed</strong></p>
               <a href="https://github.com/dimitrov-d/RPSLS" class="card-link">Game repository link</a>
               <a href="https://github.com/dimitrov-d/RPSLS_Modes" class="card-link">Run-modes repository link</a>
             </div>
@@ -611,10 +627,10 @@
     </svg>
   </section>
 
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="col-md-4 col-lg-4 contact-box py-1 d-lg-flex d-flex pe-5">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
               stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -629,7 +645,7 @@
             <span class="contact-box__info--title">+386 69 983 065</a>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="col-md-12 col-lg-4 contact-box py-1 d-lg-flex d-flex">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
               stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -641,10 +657,10 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">damjandimitrov1@gmail.com</a>
+            <span class="contact-box__info--title">damjandimitrov1@gmail.com</span>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="col-md-4 col-lg-4 contact-box py-1 d-lg-flex d-flex">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
               stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -667,11 +683,11 @@
       <div class="container">
         <div class="row py-4 text-center text-white">
           <div class="col-12">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-dev"></i></a>
-            <a href="#"><i class="fab fa-gitlab"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/damjan.dimitrov.3/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/damjan-dimitrov/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://dev.to/damjand"><i class="fab fa-dev"></i></a>
+            <a href="https://github.com/dimitrov-d"><i class="fab fa-github"></i></a>
+            <a href="https://gitlab.com/dimitrovd"><i class="fab fa-gitlab"></i></a>
           </div>
         </div>
       </div>
