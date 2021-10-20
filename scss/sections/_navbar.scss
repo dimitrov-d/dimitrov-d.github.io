@@ -1,5 +1,5 @@
-@use '../overrides'as *;
-@use '../components/mixins'as *;
+@use "../overrides" as *;
+@use "../components/mixins" as *;
 
 .menu {
     @include gradient;
@@ -17,13 +17,31 @@
             color: $white !important;
             text-transform: capitalize;
             font-weight: 600;
+            transition: transform 0.2s;
 
             @media (max-width: 575.98px) {
                 border-bottom: 0.5px solid $white !important;
             }
 
+            &.active {
+                color: $primary !important;
+            }
+
+            &:hover {
+                transform: scale(1.2);
+            }
         }
     }
+}
+
+a.active {
+    z-index: 1;
+    background-color: $white;
+    transition: transform 0.25s ease-in-out;
+    border-radius: 0.3em;
+    color: $primary !important;
+    will-change: transform;
+    backface-visibility: hidden;
 }
 
 .title {
@@ -31,4 +49,9 @@
     text-transform: capitalize;
     font-weight: 700;
     font-size: 1.5rem !important;
+
+    &.active {
+        color: $primary !important;
+        padding: 0.4rem;
+    }
 }
