@@ -42,10 +42,6 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
-      <span type="button" class="rounded-pill btn-rounded">
-        damjandimitrov1@gmail.com
-        <span><i class="fas fa-at" style="margin-left: 0.65rem;"></i></span>
-      </span>
     </div>
   </nav>
 
@@ -62,11 +58,16 @@
               Software engineer & web developer
             </span>
           </h1>
-          <button type="button" id="touch" class="rounded-pill btn-rounded"
-            onclick="location.href='mailto:damjandimitrov1@gmail.com';">
-            Get in touch
-            <span><i class="fas fa-arrow-right"></i></span>
-          </button>
+          <div class="touchButton">
+            <form id="singular-form" action="mailto:damjandimitrov1@gmail.com" method="post" enctype="text/plain">
+              <button class="shown" type="button" id="trigger">Contact me</button>
+              <div id="input-container">
+                <input type="text" placeholder="E-mail" value="damjandimitrov1@gmail.com" disabled>
+                <button type="button">Send</button>
+              </div>
+              <div id="success">Thank you!</div>
+            </form>
+          </div>
         </div>
         <div class="col-md-6 intros text-end mb-3">
           <div class="image-box">
@@ -719,6 +720,7 @@
       return new bootstrap.Tooltip(tooltipTriggerEl)
     })
   </script>
+  <script src="touchButton.js"></script>
 </body>
 
 </html>
