@@ -2,7 +2,7 @@ const sections = $('section').add('footer');
 const nav = $('nav');
 const nav_height = nav.outerHeight();
 
-$(window).on('scroll', function ()
+$(window).on('scroll', () =>
 {
     const cur_pos = $(this).scrollTop();
     sections.each((i, el) =>

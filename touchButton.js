@@ -7,8 +7,6 @@ sf.input = document.querySelector('.touchButton>#singular-form>#input-container>
 sf.submitButton = document.querySelector('.touchButton > #singular-form > #input-container > button');
 sf.successMessage = document.querySelector('.touchButton > #singular-form > #success');
 
-sf.submitDelay = 1500;
-
 sf.clickHandler = (e) =>
 {
     switch (e.target) {
@@ -34,7 +32,7 @@ sf.submitForm = () =>
     sf.touchButton.style.transition = 'all .4s cubic-bezier(0.47, 0.47, 0.27, 1.20) .4s';
     sf.touchButton.style.width = '';
     sf.successMessage.classList.add('shown');
-    setTimeout(() => sf.form.submit(), sf.submitDelay);
+    setTimeout(() => sf.form.submit(), 1500);
 }
 
 document.addEventListener('click', (e) => sf.clickHandler(e));
