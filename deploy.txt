@@ -1,0 +1,16 @@
+I would like to add that it IS very much possible, as I am doing it right now. Here's how I'm doing it:
+
+(I'm going to assume you have a package and/or directory ready to publish.)
+
+In the root of your package.json, add
+
+"homepage": "https://{pages-endpoint}/{repo}",
+Where the pages-endpoint is the blah.github.io endpoint you specified in the Settings -> Pages portion of your repository, and repo is the name of your repository.
+
+Then make sure you npm install --global gh-pages --save-dev. You need the --global to ensure the bin file is on your PATH and --save-dev should add it as a dependency in your package.json
+
+After that, just npm run build && gh-pages -d build. The -d specifies your output build directory. The standard is build, but mine was public. If it's different, just change it.
+
+Lastly, make sure in the Settings -> Pages section, you select gh-pages as the branch to host and leave the directory as / (root). Once it's built, your site should be available at your github.io endpoint.
+
+Happy Dev-ing!

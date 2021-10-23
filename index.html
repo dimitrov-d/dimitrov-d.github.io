@@ -2,205 +2,733 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/styles.css">
+  <base target="_blank">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Damjan Dimitrov</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <link rel="icon" href="./asssets/favicon.png">
-
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link hr ef="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/icons//favicon.png" />
 </head>
 
 <body>
-  <header class="bg-primary bg-gradient text-white py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 text-left text-md-center mb-3">
-          <img style="height: 200px; width: 150px;" class="rounded-circle img-fluid" src="./asssets/Profile.png"
-            alt="Profile Photo" />
-        </div>
-        <div class="col-md-9">
-          <h1>Damjan Dimitrov</h1>
-          <h5>Software Engineer / Web Developer</h5>
-          <p class="border-top pt-3">Passionate problem solver, programming enthusiast, hardworking team player, fluent
-            english speaker, positive person, always ready for a new challenge. </p>
-        </div>
-      </div>
-    </div>
-  </header>
-  <nav class="bg-dark text-white-50 mb-5">
-    <div class="container">
-      <div class="row p-2">
-        <div class="col pb-1 mr-4">
-          <svg style="margin-left:-25px !important" width="1em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-          </svg>
-          <a href="mailto:damjandimitrov1@gmail.com" class="text-white ml-2">damjandimitrov1@gmail.com</a>
-        </div>
-        <div class="col text-md-center ml-5 pb-2 pb-md-0">
-          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-globe" fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4H2.255a7.025 7.025 0 0 1 3.072-2.472 6.7 6.7 0 0 0-.597.933c-.247.464-.462.98-.64 1.539zm-.582 3.5h-2.49c.062-.89.291-1.733.656-2.5H3.82a13.652 13.652 0 0 0-.312 2.5zM4.847 5H7.5v2.5H4.51A12.5 12.5 0 0 1 4.846 5zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5H7.5V11H4.847a12.5 12.5 0 0 1-.338-2.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12H7.5v2.923c-.67-.204-1.335-.82-1.887-1.855A7.97 7.97 0 0 1 5.145 12zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11H1.674a6.958 6.958 0 0 1-.656-2.5h2.49c.03.877.138 1.718.312 2.5zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12h2.355a7.967 7.967 0 0 1-.468 1.068c-.552 1.035-1.218 1.65-1.887 1.855V12zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5h-2.49A13.65 13.65 0 0 0 12.18 5h2.146c.365.767.594 1.61.656 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z" />
-          </svg>
-          <a href="https://dimitrov-d.github.io/" class="text-white ml-2">dimitrov-d.github.io</a>
-        </div>
-        <div class="col-md text-md-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-            <path
-              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-          </svg>
-          <a href="https://www.linkedin.com/in/damjan-dimitrov/" class="text-white ml-2">LinkedIn</a>
-        </div>
-        <div class="col-md text-md-right">
-          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-              d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
-          </svg>
-          <a href="#" class="text-white ml-2">+389 70 342 007</a>
-        </div>
-        <div class="col-md text-md-right">
-          <svg width="1.5em" height="1.5em" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="currentColor" viewBox="0 0 512 512"
-            style="enable-background:new 0 0 512 512;" xml:space="preserve">
-            <path d="M255.968,5.329C114.624,5.329,0,120.401,0,262.353c0,113.536,73.344,209.856,175.104,243.872
-			c12.8,2.368,17.472-5.568,17.472-12.384c0-6.112-0.224-22.272-0.352-43.712c-71.2,15.52-86.24-34.464-86.24-34.464
-			c-11.616-29.696-28.416-37.6-28.416-37.6c-23.264-15.936,1.728-15.616,1.728-15.616c25.696,1.824,39.2,26.496,39.2,26.496
-			c22.848,39.264,59.936,27.936,74.528,21.344c2.304-16.608,8.928-27.936,16.256-34.368
-			c-56.832-6.496-116.608-28.544-116.608-127.008c0-28.064,9.984-51.008,26.368-68.992c-2.656-6.496-11.424-32.64,2.496-68
-			c0,0,21.504-6.912,70.4,26.336c20.416-5.696,42.304-8.544,64.096-8.64c21.728,0.128,43.648,2.944,64.096,8.672
-			c48.864-33.248,70.336-26.336,70.336-26.336c13.952,35.392,5.184,61.504,2.56,68c16.416,17.984,26.304,40.928,26.304,68.992
-			c0,98.72-59.84,120.448-116.864,126.816c9.184,7.936,17.376,23.616,17.376,47.584c0,34.368-0.32,62.08-0.32,70.496
-			c0,6.88,4.608,14.88,17.6,12.352C438.72,472.145,512,375.857,512,262.353C512,120.401,397.376,5.329,255.968,5.329z" />
-          </svg>
-          <a href="https://github.com/dimitrov-d" class="text-white ml-2">dimitrov-d</a>
-        </div>
-      </div>
+  <!-- NAV SECTION -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark menu shadow-lg fixed-top">
+    <a class="navbar-brand ml-2 title" href="#home" target="_self">Damjan Dimitrov</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end mr-2" id="navbarContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#skills" target="_self">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#achievements" target="_self">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experiences" target="_self">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects" target="_self">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" target="_self">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
-  <main class="container">
-    <div class="row">
-      <div class="col-md mb-5">
-        <h2 class="mb-4">Work Experience</h2>
-        <ul>
-          <li>
-            <h6 class="text-primary">Game Developer (2018)</h6>
-            <p>Member of a game development team from Macedonia using Java and Javascript. More info <a
-                href="https://www.facebook.com/underworldmk">here</a></p>
-          </li>
-		  <li>
-            <h6 class="text-primary">Software Tester @ <a href="https://trapview.com/">TrapView by Efos</a> (2020) </h6>
-            <p>Contract work in the role of a software tester and consultant, providing software solutions and testing applicable for particular problems needing to be tackled.</p>
-          </li>
-          <li>
-            <h6 class="text-primary">Software Engineer @ <a href="https://www.dbagroup.it/en/actual-en/">Actual IT</a> (since 2019)</h6>
-            <p>- Working on maritime software solutions using Angular as a frontend technology and ASP.NET Core as a backend
-              technology. Operating with databases, virtual containers, virtual environments and networks. <br>
-              - Angular Ionic App Developer, developing cross-platform mobile applications used on handheld devices by port operators</p>
-          </li>
-        </ul>
+
+  <!-- INTRO SECTION -->
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <div class="col-md-6 intros mb-3">
+          <h1 class="display-2">
+            <span class="display-2--intro">
+              Hi, my name is Damjan Dimitrov
+            </span>
+            <span class="display-2--description lh-base">
+              Software engineer & web developer
+            </span>
+          </h1>
+          <div class="touchButton">
+            <form id="singular-form" action="mailto:damjandimitrov1@gmail.com" method="post" enctype="text/plain" target="_self">
+              <button class="shown" type="button" id="trigger">Contact me</button>
+              <div id="input-container">
+                <input type="text" placeholder="E-mail" value="damjandimitrov1@gmail.com" disabled>
+                <button type="button">Send</button>
+              </div>
+              <div id="success">Thank you!</div>
+            </form>
+          </div>
+          <button type="button" id="touch" class="rounded-pill btn-rounded"
+            onclick="location.href='mailto:damjandimitrov1@gmail.com';">
+            Contact me
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
+        </div>
+        <div class="col-md-6 intros text-end mb-3">
+          <div class="image-box">
+            <img src="assets/images/profile.png" alt="profile photo" id="profile-photo" class="img-fluid">
+          </div>
+        </div>
       </div>
-      <div class="col-md mb-5">
-        <h2 class="mb-4">Education</h2>
-        <ul>
-          <li>
-            <h6 class="text-primary">Faculty of Mathematics, Natural Sciences and Information Technologies</h6>
-            <p>Bachelor of Computer Science (2018 - 2021)</p>
-          </li>
-        </ul>
-        <h2 class="mb-4">Achievements</h2>
-        <ul>
-		<li>
-            <h6 class="text-primary">University of Primorska - UPM</h6>
-            <p>Participated in the University Programming Marathon, the Slovenian national level ACM-ICPC contest in informatics.</p>
-          </li>
-          <li>
-            <h6 class="text-primary">Cisco Networking Academy</h6>
-            <p>Course completion certificate - Introduction to Cybersecurity (2021). Available <a href="https://www.credly.com/badges/c24fa73e-945e-4d1b-8345-3ce2928f5d2e?source=linked_in_profile">here </a></p>
-          </li>
-        </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="row text-center" style="margin-top: 50px">
+        <h6 class="display-5 fw-bold"> Skills and competences</h6>
+        <hr style="width: 100px; height: 3px; color:#4286f4" class="mx-auto">
+        <!-- <div class="heading-line mb-5"></div> -->
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: -20px">
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 skills__content">
+          <div class="skills__content">
+            <h3 class="display-5--title mt-1 mb-4 d-inline">Web development </h3><span
+              class="icon fas fa-laptop-code ps-4"></span>
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/angular.png" alt="Angular logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Angular" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/aspnetcore.png"
+                      alt="aspnetcore logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="ASP.NET Core"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/htmlcssjs.png"
+                      alt="htmlcssjs logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML, CSS, JS"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/rxjs.png" alt="rxjs logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="RxJS" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/typescript.png"
+                      alt="typescript logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Typescript"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/es6.png" alt="es6 logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="ES6 Standard" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/bootstrap.jpeg"
+                      alt="bootstrap logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap 5"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/sass.png" alt="sass logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sass" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/nodejs.png" alt="nodejs logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Node.js" class="img-fluid"></div>
+                </div>
+              </div>
+            </div>
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">
+              View projects
+              <span><i class="fas fa-arrow-down"></i></span>
+            </button> -->
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__image">
+            <img src="assets/images/illustrations/webdev.png" alt="webdev illustration" class="img-fluid">
+          </div>
+        </div>
       </div>
 
-    </div>
-    <div class="row">
-      <div class="col-md mb-5 text-center">
-        <h2 class="mb-4">Skills</h2>
-        <div class="inline-block skilldiv">Angular (Typescript) + RxJS</div>
-        <div class="inline-block mt-3 skilldiv">.NET Core / ASP.NET Core</div>
-        <div class="inline-block mt-3 skilldiv">Web Development and Design - HTML, CSS, Javascript</div>
-          <div class="inline-block mt-3 skilldiv">Node.js + REST API</div>
-        <div class="inline-block mt-3 skilldiv">OOP Languages - Java, C#, C++</div>
-        <div class="inline-block mt-3 skilldiv">Database management (Postgres, SQL Server)</div>
-        <div class="inline-block mt-3 skilldiv">Scripting Languages (Python, Bash)</div>
-        <div class="inline-block mt-3 skilldiv">Version Control (Git), Unit testing</div>
-        <div class="inline-block mt-3 skilldiv">Computer Networks</div>
-        <div class="inline-block mt-3 skilldiv">Math and Problem Solving</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md">
-        <h2 class="mb-5">Projects</h2>
-        <div class="row">
-          <div class="col-md mb-3">
-            <h5><b>Grocery Dropping</b></h5>
-            Online grocery shopping information system built in Angular 9 using Firebase cloud storage. <br>
-            <a href="https://github.com/dimitrov-d/Grocery-Dropping">Link to github repo</a> <br>
-            <a href="https://grocery-dropping.web.app/">
-              <img class="img-fluid img-thumbnail mt-2" src="./asssets/Projects/grocery-dropping.jpg" height="400"
-                width="400">
-            </a>
-          </div>
-          <div class="col-md mb-3">
-            <h5><b>Address Book</b></h5>
-            Address Book CRUD Web Application built using ASP.NET MVC <br>
-            <a href="https://github.com/dimitrov-d/Address-Book">Link to github repo</a> <br>
-            <a href="https://www.youtube.com/watch?v=u6byd9ZmMUo"><img class="img-fluid img-thumbnail mt-2" src="./asssets/Projects/address-book.jpg" height="400"
-              width="400"></a>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__image">
+            <img src="assets/images/illustrations/development.png" alt="server dev illustration" class="img-fluid">
           </div>
         </div>
-        <div class="row mt-4">
-          <div class="col-md mb-3">
-            <h5><b>RPSLS</b></h5>
-            Rock Paper Scissors Lizard Spock, interactive game built in 3 modes - <b>Sequential</b> using iterative
-            statements, <b>Parallel</b> by using system threads and <b>Distributed</b> using distributed network nodes.
-            <br>
-            <a href="https://github.com/dimitrov-d/RPSLS">Link to game repo</a> <br>
-            <a href="https://github.com/dimitrov-d/RPSLS_Modes">Link to modes repo</a> <br>
-            <img class="img-fluid img-thumbnail mt-2" src="./asssets/Projects/rpsls.jpg" height="300" width="250">
-          </div>
-          <div class="col-md mb-3">
-            <h5><b>Hungry Hole</b></h5>
-            Augmented Reality 3D Game built in Unity using Vuforia AR Engine <br>
-            <a href="https://gitlab.com/augmented-reality1/hungry-hole">Link to gitlab repo</a> <br>
-            <a href="https://www.youtube.com/watch?v=32Uxcjd5P20"><img class="img-fluid img-thumbnail mt-2" src="./asssets/Projects/hungry-hole.png" style="height: 350px; width: 250px;"></a>
-          </div>
-        </div>
-        <div class="row mt-4">
-          <div class="col-md mb-3">
-            <h5><b>2048 AutoPlayer</b></h5>
-            Autoplayer bot coded in Python for the game <a href="https://play2048.co/">2048</a> <br>
-            <a href="https://github.com/dimitrov-d/2048-AutoPlayer">Link to github repo</a> <br>
-            <img class="img-fluid img-thumbnail mt-2" src="./asssets/Projects/2048.jpg" height="200" width="200">
-          </div>
-          <div class="col-md mb-3">
-            <h5><b>Chat Bot</b></h5>
-            Simple chat bot programmed in Java by using the Acobot API <br>
-            <a href="https://github.com/dimitrov-d/Chat-Bot">Link to github repo</a> <br>
-            <img class="img-fluid img-thumbnail mt-2" src="./asssets/Projects/chatbot.jpg" style="height: 250px; width: 250px;">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__content">
+            <h3 class="display-5--title mb-4 d-inline">Server-side development</h3><span class="icon fas fa-server ps-4"></span>
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/java.png" alt="Java logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Java" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/csharp.png" alt="c# logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="C#" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/python.png" alt="python logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/c++.png" alt="c++ logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="C++" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/dotnet.png" alt="dotnet logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title=".NET Framework" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/spring.png" alt="spring logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Spring Framework" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <!-- <button type="button" class="rounded-pill btn-rounded border-primary">
+                View projects
+                <span><i class="fas fa-arrow-down"></i></span>
+              </button> -->
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__content">
+            <h3 class="display-5--title mb-4 d-inline">Databases & Networks</h3><span class="icon fas fa-database ps-4"></span>
+            <span class="icon fas fa-cloud-upload-alt ps-4"></span>
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/postgre.png" alt="postgre logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="PostgreSQL" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/mysql.jpeg" alt="mysql logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="MySQL" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/msql.png" alt="mssql logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Microsoft SQL" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/firebase.png"
+                      alt="firebase logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Firebase"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/gitlab.png" alt="gitlab logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Gitlab CI/CD" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/github.png" alt="github logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github Actions" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/docker.png" alt="docker logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Docker" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/digitalocean.jpeg"
+                      alt="digitalocean logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Digital Ocean"
+                      class="img-fluid"></div>
+                </div>
+              </div>
+            </div>
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">
+              View projects
+              <span><i class="fas fa-arrow-down"></i></span>
+            </button> -->
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__image float-end">
+            <img src="assets/images/illustrations/network.png" alt="network illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__image float-end">
+            <img src="assets/images/illustrations/testing.png" alt="testing illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="skills__content">
+            <h3 class="display-5--title mb-4" style="display: inline">Scripting, Version Control & Unit Testing</h3>
+            <span class="icon fas fa-scroll ps-4"></span>
+            <span class="icon fas fa-code-branch ps-4"></span>
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/git.png" alt="git logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Git" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/gitkraken.png"
+                      alt="gitkraken logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitKraken"
+                      class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/python.png" alt="Python logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/bash.svg" alt="Bash logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bash" class="img-fluid"></div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/jasmine.png" alt="Jasmine logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jasmine" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/Karma.svg" alt="Karma logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Karma" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/junit.png" alt="JUnit logo"
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" title="JUnit 5" class="img-fluid"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">
+              View projects
+              <span><i class="fas fa-arrow-down"></i></span>
+            </button> -->
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- END SKILLS SECTION -->
+
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section id="achievements" class="achievements">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row text-center text-white">
+        <h3 class="display-5 fw-bold">Achievements and Certifications</h3>
+        <p class="lead pt-1">A curated list of my achievements and certifications I have gained and accomplished over
+          time</p>
+        <hr style="width: 100px; height: 3px;" class="mx-auto">
+      </div>
+      <div class="row align-items-center">
+        <div id="carouselControl" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="achievements__name">
+                <h3>Introduction to Cybersecurity</h3>
+                <p class="fw-light">Cisco Networking Academy, January 2021</p>
+              </div>
+              <div class="achievements__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  The holder of this credential has introductory knowledge of cybersecurity, including the global
+                  implications of cyber threats, the impact of cyber attacks on industries, and why cybersecurity is a
+                  growing profession. The holder has an understanding of the ways in which networks are vulnerable to
+                  attack and Cisco’s approach to threat detection and defense. They also have insight into opportunities
+                  available for pursuing network security certifications.
+                  <i class="fas fa-quote-right"></i>
+                  <div class="mt-2 pb-2">Credential available <a
+                      href="https://www.credly.com/badges/c24fa73e-945e-4d1b-8345-3ce2928f5d2e?source=linked_in_profile">on
+                      this link</a></div>
+                </p>
+              </div>
+              <div class="achievements__picture">
+                <img src="assets/images/achievements/cisco.jpg" alt="Cisco logo" class="rounded-circle img-fluid">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="achievements__name">
+                <h3>Hacktoberfest Contributor</h3>
+                <p class="fw-light">Hacktoberfest Event 2020 & 2021</p>
+              </div>
+              <div class="achievements__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by
+                  DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts,
+                  beginners, and the developer community by contributing to open-source projects.
+                  <i class="fas fa-quote-right"></i>
+                  <div class="mt-2 pb-2">Completion badges available on my <a href="https://dev.to/damjand">Dev.to
+                      profile</a> and on my github profile</div>
+                </p>
+              </div>
+              <div class="achievements__picture">
+                <img src="assets/images/achievements/hacktoberfest.png" alt="Hacktoberfest logo"
+                  class="rounded-circle img-fluid">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="achievements__name">
+                <h3>Programming Marathon</h3>
+                <p class="fw-light">University of Primorska, 2020</p>
+              </div>
+              <div class="achievements__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  This is to confirm that Damjan Dimitrov, a BSc student of Computer Science at the University
+                  of Primorska, participated at the University Programming Marathon 2020 (abbr. UPM 2020;
+                  for more details see https://tekmovanja.acm.si/upm).
+                  UPM 2020 is a Slovene national competition which serves as qualification for the ACM ICPC
+                  Central European Regional Contest.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+              </div>
+              <div class="achievements__picture">
+                <img src="assets/images/achievements/acm.jpeg" alt="ACM logo" class="rounded-circle img-fluid">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="achievements__name">
+                <h3>Arctic Code Vault Contributor</h3>
+                <p class="fw-light">GitHub Archive Program 2020</p>
+              </div>
+              <div class="achievements__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  On 02/02/2020 GitHub captured a snapshot of every active public repository. Those millions of repos
+                  were then archived to hardened film designed to last for 1,000 years, and stored in the GitHub Arctic
+                  Code Vault in a decommissioned coal mine deep beneath an Arctic mountain in Svalbard, Norway.
+                  <i class="fas fa-quote-right"></i>
+                  <div class="mt-2 pb-2">Completion badge available on my <a href="https://github.com/dimitrov-d">Github
+                      profile</a></div>
+                </p>
+              </div>
+              <div class="achievements__picture">
+                <img src="assets/images/achievements/arctic.PNG" alt="Arctic Vault logo"
+                  class="rounded-circle img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button"
+              data-bs-target="#carouselControl" data-bs-slide="prev">
+            </button>
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button"
+              data-bs-target="#carouselControl" data-bs-slide="next">
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-  </main>
-  <footer class="bg-dark text-white-50 text-center mt-5 p-3">
-    &copy; 2020 Damjan Dimitrov - <a href="https://github.com/dimitrov-d" class="text-white-50">GitHub</a> | <a
-      href="https://www.linkedin.com/in/damjan-dimitrov/" class="text-white-50">LinkedIn</a> | <a
-      href="https://www.facebook.com/damjan.dimitrov.3" class="text-white-50">Facebook</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- END ACHIEVEMENTS SECTION -->
+
+  <!-- START EXPERIENCES SECTION§ -->
+  <section id="experiences" class="experiences">
+    <div class="container">
+      <div class="row text-center">
+        <h6 class="display-5 fw-bold"> Education and Work Experience </h6>
+        <hr style="width: 100px; height: 3px; color:#4286f4" class="mx-auto">
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionId">
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#famnit" aria-expanded="false" aria-controls="famnit">
+                  Graduate Engineer of Computer Science and Informatics (2018 - 2021)
+                </button>
+              </h2>
+              <div id="famnit" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionId">
+                <div class="accordion-body">
+                  I completed my bachelor studies in computer science and informatics at the Faculty of Mathematics,
+                  Natural Sciences and Information Technologies (FAMNIT), at the University of Primorska. During my studies I acquired
+                  a large set of skills and fundamentals in the fields of programming, software engineering, computer networks,
+                  data structures and algorithms, system design and operating systems.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Actual IT, Software Engineer (since 2019)
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionId">
+                <div class="accordion-body">
+                  Working on maritime software solutions using Angular as a frontend technology and ASP.NET Core as a
+                  backend
+                  technology. Operating with databases, virtual containers, virtual environments and networks. Apart
+                  from a full stack software engineer,
+                  occasionally I also developed Ionic Angular cross-platform mobile applications used on handheld
+                  devices by port operators. Throughout the development process I also acquired other important skills
+                  such as DevOps (Gitlab CI/CD), Version Control, Unit Testing, Server Pool Management etc.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  TrapView by Efos, Software Developer (2020)
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionId">
+                <div class="accordion-body">
+                  Contract work in the role of a software developer, tester and consultant, providing software solution
+                  recommendations and testing applicable for
+                  particular problems needing to be tackled. Acquired experience with Java backend development, REST API
+                  and Android mobile development. </div>
+              </div>
+            </div>
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Game Developer (2018)
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionId">
+                <div class="accordion-body">
+                  Member of a small local game development team, developing an online platform play-to-earn game using
+                  Java as a
+                  server-side technology and Javascript as a client-side technology. More information about the game can
+                  be found <a href="https://www.facebook.com/underworldmk"> on this link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END EXPERIENCES SECTION -->
+
+  <!-- START PROJECTS SECTION -->
+  <section id="projects" class="projects">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,288L48,245.3C96,203,192,117,288,106.7C384,96,480,160,576,170.7C672,181,768,139,864,117.3C960,96,1056,96,1152,101.3C1248,107,1344,117,1392,122.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container" style="margin-top: -2rem;">
+      <div class="row text-center mt-5 text-white">
+        <div class="row text-center mb-4">
+          <h6 class="display-5 fw-bold"> My Projects </h6>
+          <p class="lead">
+            A collection of some of the projects I have developed
+          </p>
+          <hr style="width: 100px; height: 3px;" class="mx-auto">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mt-3">
+          <div class="card align-items-center">
+            <img src="assets/images/projects/grocery-dropping.jpg" class="img-fluid compact fitted" alt="Grocery Dropping">
+            <div class="card-body">
+              <hr>
+              <h5 class="card-title">Grocery Dropping</h5>
+              <p class="card-text">Online grocery shopping information system built in Angular 9 using RxJS, NgBootstrap
+                and Firebase Cloud storage.</p>
+              <a href="https://grocery-dropping.web.app/" class="card-link">Demo link</a>
+              <a href="https://github.com/dimitrov-d/Grocery-Dropping" class="card-link">Github repository link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-3">
+          <div class="card align-items-center">
+            <img src="assets/images/projects/address-book.jpg" class="img-fluid compact fitted" alt="Address Book">
+            <div class="card-body">
+              <hr>
+              <h5 class="card-title">Address Book</h5>
+              <p class="card-text">Address Book CRUD Web Application built using ASP.NET MVC, REST API, Entity Framework
+                and MySQL database</p>
+              <a href="https://github.com/dimitrov-d/Address-Book" class="card-link">Github repository link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-3">
+          <div class="card align-items-center">
+            <img src="assets/images/projects/2048.jpg" class="img-fluid compact" alt="2048">
+            <div class="card-body">
+              <hr>
+              <h5 class="card-title">2048 Autoplayer</h5>
+              <p class="card-text">Autoplayer bot coded in Python for the game 2048</p>
+              <a href="https://github.com/dimitrov-d/2048-AutoPlayer" class="card-link">Github repository link</a>
+              <a href="https://play2048.co/" class="card-link">Original game link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-3">
+          <div class="card align-items-center">
+            <img src="assets/images/projects/hungry-hole.png" class="img-fluid compact" alt="Hungry Hole">
+            <div class="card-body">
+              <hr>
+              <h5 class="card-title">Hungry Hole</h5>
+              <p class="card-text">Augmented Reality 3D Game built in Unity using Vuforia AR Engine. The game is available for Android and iOS, or it can be played on a desktop system</p>
+              <a href="https://gitlab.com/augmented-reality1/hungry-hole" class="card-link">Gitlab repository link</a>
+              <a href="https://www.youtube.com/watch?v=32Uxcjd5P20" class="card-link">Demo video</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mt-3">
+          <div class="card align-items-center">
+            <img src="assets/images/projects/chatbot.jpg" class="img-fluid compact" alt="Chat Bot">
+            <div class="card-body">
+              <hr>
+              <h5 class="card-title">Chat Bot</h5>
+              <p class="card-text">Simple chat bot interface desktop application programmed in Java by using the Acobot
+                API and the JavaFX Framework</p>
+              <a href="https://github.com/dimitrov-d/Chat-Bot" class="card-link">Github repository link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-3">
+          <div class="card align-items-center">
+            <img src="assets/images/projects/rpsls.jpg" class="img-fluid compact" alt="RPSLS">
+            <div class="card-body">
+              <hr>
+              <h5 class="card-title">RPSLS</h5>
+              <p class="card-text">Rock Paper Scissors Lizard Spock, interactive game built in 3 runtime modes -
+                <strong>Sequential</strong>, <strong>Parallel</strong>, or <strong>Distributed</strong></p>
+              <a href="https://github.com/dimitrov-d/RPSLS" class="card-link">Game repository link</a>
+              <a href="https://github.com/dimitrov-d/RPSLS_Modes" class="card-link">Run-modes repository link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,0L48,53.3C96,107,192,213,288,245.3C384,277,480,235,576,218.7C672,203,768,213,864,192C960,171,1056,117,1152,90.7C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-sm-12 contact-box py-1 d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              <path d="M15 7a2 2 0 0 1 2 2" />
+              <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <span class="contact-box__info--title">+386 69 983 065</a>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4 col-sm-12 contact-box py-1 d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <polyline points="3 9 12 15 21 9 12 3 3 9" />
+              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+              <line x1="3" y1="19" x2="9" y2="13" />
+              <line x1="15" y1="13" x2="21" y2="19" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <span class="contact-box__info--title">damjandimitrov1@gmail.com</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-12 contact-box py-1 d-lg-flex d-flex mediapad">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <span class="contact-box__info--title">Koper, Slovenia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-sm" style="background-color: #212121;">
+      <div class="container">
+        <div class="row py-4 text-center text-white">
+          <div class="col-12">
+            <a href="https://www.facebook.com/damjan.dimitrov.3/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/damjan-dimitrov/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://dev.to/damjand"><i class="fab fa-dev"></i></a>
+            <a href="https://github.com/dimitrov-d"><i class="fab fa-github"></i></a>
+            <a href="https://gitlab.com/dimitrovd"><i class="fab fa-gitlab"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <a href="#" target="_self" class="shadow btn-primary rounded-circle back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+  <script src="touchButton.js"></script>
+  <script src="navigation.js"></script>
 </body>
 
 </html>
