@@ -25,14 +25,6 @@ sf.clickHandler = (e) =>
     }
 }
 
-sf.handleInputKeypress = (e) =>
-{
-    if (e.keyCode === 13) {
-        e.preventDefault();
-        sf.submitForm();
-    }
-}
-
 sf.submitForm = () =>
 {
     sf.input.style.transition = 'all .4s ease';
@@ -42,8 +34,7 @@ sf.submitForm = () =>
     sf.touchButton.style.transition = 'all .4s cubic-bezier(0.47, 0.47, 0.27, 1.20) .4s';
     sf.touchButton.style.width = '';
     sf.successMessage.classList.add('shown');
-    let submission = setTimeout(() => sf.form.submit(), sf.submitDelay);
+    setTimeout(() => sf.form.submit(), sf.submitDelay);
 }
 
-sf.input.addEventListener('keypress', (e) => sf.handleInputKeypress(e));
 document.addEventListener('click', (e) => sf.clickHandler(e));

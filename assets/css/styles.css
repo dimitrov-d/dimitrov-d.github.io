@@ -1,4 +1,8 @@
 @charset "UTF-8";
+*::selection {
+  color: orange !important;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11159,8 +11163,16 @@ textarea.form-control-lg {
 .btn-rounded:hover span {
   background-color: rgba(0, 0, 0, 0.6);
 }
-.btn-rounded::selection {
-  color: orange;
+
+@media only screen and (max-width: 992px) {
+  .touchButton {
+    display: none;
+  }
+}
+.touchButton button:hover {
+  background: linear-gradient(to right, rgba(66, 134, 244, 0.95), rgba(118, 128, 151, 0.95));
+  color: #fff !important;
+  border-color: #fff !important;
 }
 
 .display-2 {
@@ -11374,6 +11386,11 @@ textarea.form-control-lg {
 .menu li a:hover {
   transform: scale(1.2);
 }
+@media (max-width: 575.98px) {
+  .menu li:first-child > a {
+    border-top: 0.5px solid #fff !important;
+  }
+}
 
 a.active {
   z-index: 1;
@@ -11383,6 +11400,7 @@ a.active {
   color: #4286f4 !important;
   will-change: transform;
   backface-visibility: hidden;
+  transform: scale(1.2);
 }
 
 .title {
@@ -11394,6 +11412,7 @@ a.active {
 .title.active {
   color: #4286f4 !important;
   padding: 0.4rem;
+  transform: scale(1) !important;
 }
 
 .intro-section {
@@ -11419,6 +11438,11 @@ a.active {
 
 #touch {
   cursor: pointer !important;
+}
+@media only screen and (min-width: 992px) {
+  #touch {
+    display: none;
+  }
 }
 
 .skills {
@@ -11456,7 +11480,7 @@ a.active {
 }
 @media only screen and (max-width: 600px) {
   .skills__content .icon {
-    display: none;
+    font-size: 1.5rem;
   }
 }
 .skills__image {
@@ -11545,7 +11569,7 @@ a.active {
 }
 @media (min-width: 576px) {
   .contact-box__icon {
-    width: 4rem;
+    width: 3rem;
   }
 }
 .contact-box__info {
@@ -11604,6 +11628,12 @@ a.active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 992px) {
+  div.mediapad {
+    padding-left: 5rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

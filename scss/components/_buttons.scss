@@ -37,7 +37,17 @@
         }
     }
 
-    &::selection {
-        color: orange;
+}
+
+.touchButton {
+    @media only screen and (max-width: 992px) {
+        display: none;
     }
+
+    button:hover {
+        @include gradient;
+        color: $white !important;
+        border-color: $white !important;
+    }
+
 }

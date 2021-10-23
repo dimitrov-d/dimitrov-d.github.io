@@ -31,6 +31,12 @@
                 transform: scale(1.2);
             }
         }
+
+        &:first-child > a {
+            @media (max-width: 575.98px) {
+                border-top: 0.5px solid $white !important;
+            }
+        }
     }
 }
 
@@ -42,6 +48,7 @@ a.active {
     color: $primary !important;
     will-change: transform;
     backface-visibility: hidden;
+    transform: scale(1.2);
 }
 
 .title {
@@ -53,5 +60,6 @@ a.active {
     &.active {
         color: $primary !important;
         padding: 0.4rem;
+        transform: scale(1) !important;
     }
 }

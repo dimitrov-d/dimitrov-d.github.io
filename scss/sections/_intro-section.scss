@@ -23,4 +23,8 @@
 
 #touch {
     cursor: pointer !important;
+    @media only screen and (min-width: 992px) {
+        display: none;
+    }
+
 }

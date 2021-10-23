@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <base target="_blank">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +15,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link hr ef="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/icons//favicon.png" />
 </head>
 
 <body>
   <!-- NAV SECTION -->
   <nav class="navbar navbar-expand-lg sticky-top navbar-dark menu shadow-lg fixed-top">
-    <a class="navbar-brand ml-2 title" href="#home">Damjan Dimitrov</a>
+    <a class="navbar-brand ml-2 title" href="#home" target="_self">Damjan Dimitrov</a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,19 +29,19 @@
     <div class="collapse navbar-collapse justify-content-end mr-2" id="navbarContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#skills" target="_self">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#achievements">Achievements</a>
+          <a class="nav-link" href="#achievements" target="_self">Achievements</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experiences">Experience</a>
+          <a class="nav-link" href="#experiences" target="_self">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#projects" target="_self">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact" target="_self">Contact</a>
         </li>
       </ul>
     </div>
@@ -59,7 +61,7 @@
             </span>
           </h1>
           <div class="touchButton">
-            <form id="singular-form" action="mailto:damjandimitrov1@gmail.com" method="post" enctype="text/plain">
+            <form id="singular-form" action="mailto:damjandimitrov1@gmail.com" method="post" enctype="text/plain" target="_self">
               <button class="shown" type="button" id="trigger">Contact me</button>
               <div id="input-container">
                 <input type="text" placeholder="E-mail" value="damjandimitrov1@gmail.com" disabled>
@@ -68,6 +70,11 @@
               <div id="success">Thank you!</div>
             </form>
           </div>
+          <button type="button" id="touch" class="rounded-pill btn-rounded"
+            onclick="location.href='mailto:damjandimitrov1@gmail.com';">
+            Contact me
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
         </div>
         <div class="col-md-6 intros text-end mb-3">
           <div class="image-box">
@@ -93,9 +100,9 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 skills__content">
           <div class="skills__content">
-            <h3 class="display-5--title mt-1 mb-4">Web development </h3><span
+            <h3 class="display-5--title mt-1 mb-4 d-inline">Web development </h3><span
               class="icon fas fa-laptop-code ps-4"></span>
-            <div class="container">
+            <div class="container mt-4">
               <div class="row">
                 <div class="col-4">
                   <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/angular.png" alt="Angular logo"
@@ -160,8 +167,8 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="skills__content">
-            <h3 class="display-5--title mb-4">Server-side development</h3><span class="icon fas fa-server ps-4"></span>
-            <div class="container">
+            <h3 class="display-5--title mb-4 d-inline">Server-side development</h3><span class="icon fas fa-server ps-4"></span>
+            <div class="container mt-4">
               <div class="row">
                 <div class="col-4">
                   <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/java.png" alt="Java logo"
@@ -202,9 +209,9 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="skills__content">
-            <h3 class="display-5--title mb-4">Databases & Networks</h3><span class="icon fas fa-database ps-4"></span>
+            <h3 class="display-5--title mb-4 d-inline">Databases & Networks</h3><span class="icon fas fa-database ps-4"></span>
             <span class="icon fas fa-cloud-upload-alt ps-4"></span>
-            <div class="container">
+            <div class="container mt-4">
               <div class="row">
                 <div class="col-4">
                   <div class="skills__logo-box shadow-lg"><img src="assets/images/logos/postgre.png" alt="postgre logo"
@@ -387,7 +394,7 @@
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
                   This is to confirm that Damjan Dimitrov, a BSc student of Computer Science at the University
-                  of Primorska, participated at the University Programming Maraton 2020 (abbr. UPM 2020;
+                  of Primorska, participated at the University Programming Marathon 2020 (abbr. UPM 2020;
                   for more details see https://tekmovanja.acm.si/upm).
                   UPM 2020 is a Slovene national competition which serves as qualification for the ACM ICPC
                   Central European Regional Contest.
@@ -480,7 +487,7 @@
                   backend
                   technology. Operating with databases, virtual containers, virtual environments and networks. Apart
                   from a full stack software engineer,
-                  occassionaly I also developed Ionic Angular cross-platform mobile applications used on handheld
+                  occasionally I also developed Ionic Angular cross-platform mobile applications used on handheld
                   devices by port operators. Throughout the development process I also acquired other important skills
                   such as DevOps (Gitlab CI/CD), Version Control, Unit Testing, Server Pool Management etc.
                 </div>
@@ -631,7 +638,7 @@
   <footer class="footer" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-lg-4 contact-box py-1 d-lg-flex d-flex pe-5">
+        <div class="col-md-4 col-lg-4 col-sm-12 contact-box py-1 d-lg-flex d-flex">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
               stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -646,7 +653,7 @@
             <span class="contact-box__info--title">+386 69 983 065</a>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4 contact-box py-1 d-lg-flex d-flex">
+        <div class="col-md-12 col-lg-4 col-sm-12 contact-box py-1 d-lg-flex d-flex">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
               stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -661,7 +668,7 @@
             <span class="contact-box__info--title">damjandimitrov1@gmail.com</span>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 contact-box py-1 d-lg-flex d-flex">
+        <div class="col-md-4 col-lg-4 col-sm-12 contact-box py-1 d-lg-flex d-flex mediapad">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
               stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -695,7 +702,7 @@
     </div>
   </footer>
 
-  <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+  <a href="#" target="_self" class="shadow btn-primary rounded-circle back-to-top">
     <i class="fas fa-chevron-up"></i>
   </a>
 
