@@ -48,8 +48,13 @@
         color: $white !important;
         border-color: $white !important;
     }
+
+    #trigger {
+        padding-right: 30px !important;
+    }
 }
 
 #trigger > span {
     z-index: -999;
 }
+

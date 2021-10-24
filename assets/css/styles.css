@@ -11174,6 +11174,9 @@ textarea.form-control-lg {
   color: #fff !important;
   border-color: #fff !important;
 }
+.touchButton #trigger {
+  padding-right: 30px !important;
+}
 
 #trigger > span {
   z-index: -999;
