@@ -11132,7 +11132,7 @@ textarea.form-control-lg {
     opacity: 0;
   }
 }
-.btn-rounded {
+.btn-rounded, #trigger {
   position: relative;
   padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
   font-weight: 700;
@@ -11141,7 +11141,7 @@ textarea.form-control-lg {
   background-color: #fff;
   display: block;
 }
-.btn-rounded span {
+.btn-rounded span, #trigger span {
   position: absolute;
   background-color: #4286f4;
   width: 2.5rem;
@@ -11151,16 +11151,16 @@ textarea.form-control-lg {
   transform: translateY(-50%);
   border-radius: 50%;
 }
-.btn-rounded span i {
+.btn-rounded span i, #trigger span i {
   color: #fff;
   font-size: 1rem;
   line-height: 2.5rem;
 }
-.btn-rounded:hover {
+.btn-rounded:hover, #trigger:hover {
   background: linear-gradient(to right, rgba(66, 134, 244, 0.95), rgba(118, 128, 151, 0.95));
   color: #fff;
 }
-.btn-rounded:hover span {
+.btn-rounded:hover span, #trigger:hover span {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -11173,6 +11173,10 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(66, 134, 244, 0.95), rgba(118, 128, 151, 0.95));
   color: #fff !important;
   border-color: #fff !important;
+}
+
+#trigger > span {
+  z-index: -999;
 }
 
 .display-2 {
