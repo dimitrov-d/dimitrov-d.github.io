@@ -11560,6 +11560,11 @@ a.active {
   width: 300px !important;
   height: 220px !important;
 }
+.projects a.action-link {
+  color: #4e4ee6 !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
 
 .footer {
   padding-top: 1rem;

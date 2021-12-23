@@ -25,4 +25,10 @@
             height: 220px !important;
         }
     }
+
+    a.action-link {
+        color: rgb(78, 78, 230) !important;
+        text-decoration: underline !important;
+        cursor: pointer;
+    }
 }
