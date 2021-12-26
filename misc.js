@@ -14,5 +14,5 @@ function collapseText() {
 }
 
 function croppedText(text) {
-    return `${text.substring(0, 100)}... <a class="action-link" onclick="expandText()">Show More</a>`;
+    return `${text.substring(0, 200)}... <a class="action-link" onclick="expandText()">Show More</a>`;
 }
