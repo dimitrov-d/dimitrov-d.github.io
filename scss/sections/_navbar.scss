@@ -1,11 +1,13 @@
 @use "../overrides" as *;
 @use "../components/mixins" as *;
 
+$max_width: 985px;
+
 .menu {
     @include gradient;
 
     ul {
-        @media (max-width: 575.98px) {
+        @media (max-width: $max_width) {
             text-align: center;
         }
     }
@@ -19,8 +21,8 @@
             font-weight: 600;
             transition: transform 0.2s;
 
-            @media (max-width: 575.98px) {
-                border-bottom: 0.5px solid $white !important;
+            @media (max-width: $max_width) {
+                border-bottom: 0.5px solid $gray-500 !important;
             }
 
             &.active {
@@ -33,8 +35,8 @@
         }
 
         &:first-child > a {
-            @media (max-width: 575.98px) {
-                border-top: 0.5px solid $white !important;
+            @media (max-width: $max_width) {
+                border-top: 0.5px solid $gray-500 !important;
             }
         }
     }

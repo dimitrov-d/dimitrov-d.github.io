@@ -11368,7 +11368,7 @@ textarea.form-control-lg {
 .menu {
   background: linear-gradient(to right, rgba(66, 134, 244, 0.95), rgba(118, 128, 151, 0.95));
 }
-@media (max-width: 575.98px) {
+@media (max-width: 985px) {
   .menu ul {
     text-align: center;
   }
@@ -11382,9 +11382,9 @@ textarea.form-control-lg {
   font-weight: 600;
   transition: transform 0.2s;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 985px) {
   .menu li a {
-    border-bottom: 0.5px solid #fff !important;
+    border-bottom: 0.5px solid #adb5bd !important;
   }
 }
 .menu li a.active {
@@ -11393,9 +11393,9 @@ textarea.form-control-lg {
 .menu li a:hover {
   transform: scale(1.2);
 }
-@media (max-width: 575.98px) {
+@media (max-width: 985px) {
   .menu li:first-child > a {
-    border-top: 0.5px solid #fff !important;
+    border-top: 0.5px solid #adb5bd !important;
   }
 }
 
