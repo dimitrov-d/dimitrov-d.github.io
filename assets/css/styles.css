@@ -11577,7 +11577,7 @@ a.active {
 .contact-box__icon {
   width: 2rem;
   stroke: #4286f4;
-  padding-top: 0.5rem;
+  padding-top: 0.1rem;
 }
 @media (min-width: 576px) {
   .contact-box__icon {
