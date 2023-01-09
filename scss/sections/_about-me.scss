@@ -1,0 +1,31 @@
+#about-me {
+    padding: 25px;
+    color: white;
+    background-color: #1b1b32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & > div {
+        max-width: 1500px;
+        text-align: center;
+
+        h2 {
+            font-size: 2rem;
+            padding: 15px 0;
+            font-family: "Rubik Dirt", cursive;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    #about-me div p {
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+}

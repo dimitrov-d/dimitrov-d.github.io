@@ -480,6 +480,11 @@ progress {
   display: none !important;
 }
 
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -11447,6 +11452,34 @@ a.active {
   }
 }
 
+#about-me {
+  padding: 25px;
+  color: white;
+  background-color: #1b1b32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about-me > div {
+  max-width: 1500px;
+  text-align: center;
+}
+#about-me > div h2 {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+#about-me > div p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 575.98px) {
+  #about-me div p {
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+}
 .skills {
   position: relative;
   padding: 1rem 0;
@@ -11747,6 +11780,7 @@ a.active {
 .chat-title {
   font-size: 2rem;
   padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
 }
 
 .footer-logo {
