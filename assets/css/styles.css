@@ -11459,9 +11459,10 @@ a.active {
   display: flex;
   flex-direction: column;
   text-align: justify;
+  align-items: center;
 }
 #about-me > div {
-  max-width: 1500px;
+  max-width: 1200px;
   text-align: justify;
   padding: 10px;
 }
