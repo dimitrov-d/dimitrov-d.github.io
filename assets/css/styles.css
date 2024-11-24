@@ -11458,21 +11458,19 @@ a.active {
   background-color: #1b1b32;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-#about-me > div {
-  max-width: 1200px;
   text-align: justify;
 }
-
+#about-me > div {
+  max-width: 1500px;
+  text-align: justify;
+  padding: 10px;
+}
 #about-me > div h2 {
   font-size: 2rem;
+  text-align: center;
   padding: 15px 0;
   font-family: "Rubik Dirt", cursive;
-  text-align: center;
 }
-
 #about-me > div p {
   font-size: 1.1rem;
 }
@@ -11582,14 +11580,14 @@ a.active {
   text-transform: capitalize;
 }
 .projects img.compact {
-  max-height: 200px;
+  max-height: 250px;
   width: 80%;
   margin-top: 20px;
   margin-bottom: -20px;
 }
 .projects img.fitted {
   width: 300px !important;
-  height: 220px !important;
+  height: 250px !important;
 }
 .projects a.action-link {
   color: #4e4ee6 !important;
